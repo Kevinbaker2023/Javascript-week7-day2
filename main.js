@@ -179,9 +179,7 @@ let person3 = {
         cupids_candies:"Chocolate Malt"
     }]
 }
-    for (const key in person3) {
-        console.log(`${[key]}: ${person3[key]}`)
-    }
+ console.log(Object.values(person3) + Object.values(person3.shakes[0]))
 //======= Exercise #2=========//
 /*
 Write an Javascript Class for a Person that has a name and age, has a
